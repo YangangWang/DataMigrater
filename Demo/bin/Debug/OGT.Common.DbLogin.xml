@@ -1,0 +1,312 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OGT.Common.DbLogin</name>
+    </assembly>
+    <members>
+        <member name="T:OGT.Common.DbLogin.ConnectionControl">
+            <summary>
+            Interaction logic for ConnManagerControl.xaml
+            </summary>
+            <summary>
+            ConnectionControl
+            </summary>
+        </member>
+        <member name="M:OGT.Common.DbLogin.ConnectionControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:OGT.Common.DbLogin.ConnectionManager">
+            <summary>
+            Interaction logic for ConnectionManager.xaml
+            </summary>
+            <summary>
+            ConnectionManager
+            </summary>
+        </member>
+        <member name="M:OGT.Common.DbLogin.ConnectionManager.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="F:OGT.Common.DbLogin.DatabaseType.Oracle">
+            <summary>
+            Oracle数据库
+            </summary>
+        </member>
+        <member name="F:OGT.Common.DbLogin.DatabaseType.SQLServer">
+            <summary>
+            Sqlserver数据库
+            </summary>
+        </member>
+        <member name="F:OGT.Common.DbLogin.DatabaseType.Access">
+            <summary>
+            Access数据库
+            </summary>
+        </member>
+        <member name="F:OGT.Common.DbLogin.DatabaseType.SQLite">
+            <summary>
+            SQlite数据库
+            </summary>
+        </member>
+        <member name="F:OGT.Common.DbLogin.DatabaseType.PostgreSQL">
+            <summary>
+            PostgreSQL数据库
+            </summary>
+        </member>
+        <member name="T:OGT.Common.DbLogin.DbLoginControl">
+            <summary>
+            Interaction logic for ConnectionControl.xaml
+            </summary>
+            <summary>
+            DbLoginControl
+            </summary>
+        </member>
+        <member name="M:OGT.Common.DbLogin.DbLoginControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:OGT.Common.DbLogin.DbLoginWindow">
+            <summary>
+            Interaction logic for ConnectionWindow.xaml
+            </summary>
+            <summary>
+            DbLoginWindow
+            </summary>
+        </member>
+        <member name="M:OGT.Common.DbLogin.DbLoginWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:OGT.Common.DbLogin.Model.DbConnectionInfo.GetDbConnectionInfo(System.String)">
+            <summary>
+            获取当前路径下，ConnectionStrings 目录中指定名称的连接信息
+            </summary>
+            <param name="connName"></param>
+            <returns></returns>
+        </member>
+        <member name="P:OGT.Common.DbLogin.Model.DbConnectionInfo.Identifier">
+            <summary>
+            唯一标识符
+            </summary>
+        </member>
+        <member name="P:OGT.Common.DbLogin.Model.DbConnectionInfo.ConnectionName">
+            <summary>
+            连接名称
+            </summary>
+        </member>
+        <member name="P:OGT.Common.DbLogin.Model.DbConnectionInfo.DbType">
+            <summary>
+            数据库类型
+            </summary>
+        </member>
+        <member name="P:OGT.Common.DbLogin.Model.DbConnectionInfo.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:OGT.Common.DbLogin.Model.DbConnectionInfo.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:OGT.Common.DbLogin.Model.DbConnectionInfo.DataSource">
+            <summary>
+            数据源
+            </summary>
+        </member>
+        <member name="P:OGT.Common.DbLogin.Model.DbConnectionInfo.ConnStringBuilder">
+            <summary>
+            连接字符串构造器
+            </summary>
+        </member>
+        <member name="P:OGT.Common.DbLogin.Model.DbConnectionInfo.ColumnLeftToken">
+            <summary>
+            左修饰符
+            </summary>
+        </member>
+        <member name="P:OGT.Common.DbLogin.Model.DbConnectionInfo.ColumnRightToken">
+            <summary>
+            右修饰符
+            </summary>
+        </member>
+        <member name="T:OGT.Common.DbLogin.Model.ConnectionType">
+            <summary>
+            连接类型
+            </summary>
+        </member>
+        <member name="F:OGT.Common.DbLogin.Model.ConnectionType.Direct">
+            <summary>
+            直接连接
+            </summary>
+        </member>
+        <member name="F:OGT.Common.DbLogin.Model.ConnectionType.ADOService">
+            <summary>
+            ADO服务
+            </summary>
+        </member>
+        <member name="F:OGT.Common.DbLogin.Model.ConnectionType.WCFService">
+            <summary>
+            WCF服务
+            </summary>
+        </member>
+        <member name="F:OGT.Common.DbLogin.Model.ConnectionType.WebService">
+            <summary>
+            Web服务
+            </summary>
+        </member>
+        <member name="F:OGT.Common.DbLogin.Model.ConnectionType.RemotingService">
+            <summary>
+            Remoting服务
+            </summary>
+        </member>
+        <member name="T:OGT.Common.DbLogin.Model.IConnectionType">
+            <summary>
+            连接类型
+            </summary>
+        </member>
+        <member name="T:OGT.Common.DbLogin.Model.PostgreSQLConnectionInfo">
+            <summary>
+            如果使用DependencyProperty在多线程的时候，可能会有问题
+            </summary>
+        </member>
+        <member name="P:OGT.Common.DbLogin.Model.PostgreSQLConnectionInfo.Port">
+            <summary>
+            端口号
+            </summary>
+        </member>
+        <member name="P:OGT.Common.DbLogin.Model.PostgreSQLConnectionInfo.DatabaseName">
+            <summary>
+            数据库名称
+            </summary>
+        </member>
+        <member name="P:OGT.Common.DbLogin.Model.PostgreSQLConnectionInfo.ConnectionName">
+            <summary>
+            连接名称
+            </summary>
+        </member>
+        <member name="T:OGT.Common.DbLogin.PropertyGridWindow">
+            <summary>
+            Interaction logic for PropertyGridWindow.xaml
+            </summary>
+            <summary>
+            PropertyGridWindow
+            </summary>
+        </member>
+        <member name="M:OGT.Common.DbLogin.PropertyGridWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:OGT.Common.DbLogin.SetDbTypeWindow">
+            <summary>
+            Interaction logic for SetDbTypeWindow.xaml
+            </summary>
+            <summary>
+            SetDbTypeWindow
+            </summary>
+        </member>
+        <member name="M:OGT.Common.DbLogin.SetDbTypeWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:OGT.Common.DbLogin.View.AccessLoginControl">
+            <summary>
+            Interaction logic for AccessLoginControl.xaml
+            </summary>
+            <summary>
+            AccessLoginControl
+            </summary>
+        </member>
+        <member name="M:OGT.Common.DbLogin.View.AccessLoginControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:OGT.Common.DbLogin.View.ConnectionNameWindow">
+            <summary>
+            Interaction logic for ConnectionNameWindow.xaml
+            </summary>
+            <summary>
+            ConnectionNameWindow
+            </summary>
+        </member>
+        <member name="M:OGT.Common.DbLogin.View.ConnectionNameWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:OGT.Common.DbLogin.View.OracleLoginControl">
+            <summary>
+            Interaction logic for OracleLoginControl.xaml
+            </summary>
+            <summary>
+            OracleLoginControl
+            </summary>
+        </member>
+        <member name="M:OGT.Common.DbLogin.View.OracleLoginControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:OGT.Common.DbLogin.View.PostgreSQLLoginControl">
+            <summary>
+            PostgreSQLLoginControl.xaml 的交互逻辑
+            </summary>
+            <summary>
+            PostgreSQLLoginControl
+            </summary>
+        </member>
+        <member name="M:OGT.Common.DbLogin.View.PostgreSQLLoginControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:OGT.Common.DbLogin.View.SQLiteLoginControl">
+            <summary>
+            Interaction logic for SQLiteLoginControl.xaml
+            </summary>
+            <summary>
+            SQLiteLoginControl
+            </summary>
+        </member>
+        <member name="M:OGT.Common.DbLogin.View.SQLiteLoginControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:OGT.Common.DbLogin.View.SqlserverLoginControl">
+            <summary>
+            Interaction logic for SqlserverLoginControl.xaml
+            </summary>
+            <summary>
+            SqlserverLoginControl
+            </summary>
+        </member>
+        <member name="M:OGT.Common.DbLogin.View.SqlserverLoginControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:OGT.Common.DbLogin.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:OGT.Common.DbLogin.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:OGT.Common.DbLogin.Properties.Resources.Culture">
+            <summary>
+              使用此强类型资源类，为所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+    </members>
+</doc>
